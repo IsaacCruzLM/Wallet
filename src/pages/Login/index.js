@@ -2,7 +2,9 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { addUserToState } from '../actions/index';
+import { addUserToState } from '../../Redux/actions/index';
+
+import './styles.css';
 
 class Login extends React.Component {
   constructor() {
@@ -44,40 +46,46 @@ class Login extends React.Component {
     if (shouldRedirect) return <Redirect to="/carteira" />;
 
     return (
-      <div>
-        <h2>
-          Login
-        </h2>
-        <label htmlFor="userEmail">
-          Email:
-          <input
-            onChange={ this.handleInputChange }
-            name="userEmail"
-            value={ userEmail }
-            data-testid="email-input"
-            type="text"
-            id="userEmail"
-          />
-        </label>
-        <label htmlFor="userPassword">
-          Senha:
-          <input
-            onChange={ this.handleInputChange }
-            name="userPassword"
-            value={ userPassword }
-            data-testid="password-input"
-            type="text"
-            id="userPassword"
-          />
-        </label>
-        <button
-          onClick={ this.handleSubmit }
-          disabled={ this.userVerify() }
-          type="button"
-        >
-          Entrar
-        </button>
-      </div>
+      <main className="loginPage">
+        <section className="container">
+          <h2 className="gif">
+            Login
+          </h2>
+          <div className="input">
+            <label htmlFor="userEmail">
+              Email:
+              <input
+                onChange={ this.handleInputChange }
+                name="userEmail"
+                value={ userEmail }
+                data-testid="email-input"
+                type="text"
+                id="userEmail"
+              />
+            </label>
+          </div>
+          <div className="input">
+            <label htmlFor="userPassword">
+              Senha:
+              <input
+                onChange={ this.handleInputChange }
+                name="userPassword"
+                value={ userPassword }
+                data-testid="password-input"
+                type="text"
+                id="userPassword"
+              />
+            </label>
+          </div>
+          <button
+            onClick={ this.handleSubmit }
+            disabled={ this.userVerify() }
+            type="button"
+          >
+            Entrar
+          </button>
+        </section>
+      </main>
     );
   }
 }

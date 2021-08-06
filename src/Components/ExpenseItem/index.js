@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { removeExpenses, showEditModal, editItem } from '../actions';
+import { removeExpenses, showEditModal, editItem } from '../../Redux/actions/index';
 
 class ExpenseItem extends React.Component {
   constructor(props) {

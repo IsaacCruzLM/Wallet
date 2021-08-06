@@ -2,12 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { changeEditItem, hideEditModal } from '../actions';
+import { changeEditItem, hideEditModal } from '../../Redux/actions/index';
 
-import CategoriesSelect from './CategoriesSelect';
-import PayementsSelect from './PayementsSelect';
-import ValueInput from './ValueInput';
-import DescriptionInput from './DescriptionInput';
+import CategoriesSelect from '../CategoriesSelect';
+import PayementsSelect from '../PayementsSelect';
+import ValueInput from '../ValueInput';
+import DescriptionInput from '../DescriptionInput';
 
 class EditModal extends React.Component {
   constructor(props) {

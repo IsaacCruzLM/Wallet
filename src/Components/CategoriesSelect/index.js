@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './styles.css';
+
 class CategoriesSelect extends React.Component {
   render() {
     const { func, value } = this.props;

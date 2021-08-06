@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { fetchCurrencies, addExpenses } from '../actions/index';
+import { fetchCurrencies, addExpenses } from '../../Redux/actions/index';
 
-import CategoriesSelect from './CategoriesSelect';
-import PayementsSelect from './PayementsSelect';
+import CategoriesSelect from '../CategoriesSelect';
+import PayementsSelect from '../PayementsSelect';
 
 class ExpenseForm extends React.Component {
   constructor() {

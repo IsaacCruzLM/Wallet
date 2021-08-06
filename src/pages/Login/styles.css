@@ -1,0 +1,80 @@
+.loginPage {
+  align-items: center;
+  color: var(--lgbg-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--ligth-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.gif {
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+input , button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: var(--background-color);
+  outline: none;
+  width: 16rem;
+}
+
+input {
+  border-bottom: 1px solid var(--background-color);
+  font-size: 1rem;
+  margin: 0 auto 20px;
+  padding: 10px;
+  transition: border-color 0.4s linear 0.1s;
+  width: 75%;
+}
+
+input:focus {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: var(--background-color);
+  font-size: 1rem;
+  margin: 0 auto 20px;
+  padding: 18px 0;
+  transition: 0.4s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+  transform: scale(1.08);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  filter: brightness(0.3);
+}
+
+button:disabled:hover {
+  filter: brightness(0.3);
+  transform: scale(1);
+}
+
+.input label {
+  color: var(--background-color);
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+

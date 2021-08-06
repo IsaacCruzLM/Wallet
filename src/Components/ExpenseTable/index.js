@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import ExpenseItem from './ExpenseItem';
+import ExpenseItem from '../ExpenseItem';
 
 class ExpenseTable extends React.Component {
   render() {

@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import Header from '../Components/Header';
-import ExpenseForm from '../Components/ExpenseForm';
-import ExpenseTable from '../Components/ExpenseTable';
-import EditModal from '../Components/EditModal';
+import Header from '../../Components/Header';
+import ExpenseForm from '../../Components/ExpenseForm';
+import ExpenseTable from '../../Components/ExpenseTable';
+import EditModal from '../../Components/EditModal';
 
 class Wallet extends React.Component {
   render() {

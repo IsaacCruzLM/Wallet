@@ -35,7 +35,7 @@
 
 .expenseForm button {
   background-color: var(--lgbg-color);
+  font-size: 25px;
   margin: 10px 35px 10px 10px;
   padding: 0;
-  font-size: 25px;
 }

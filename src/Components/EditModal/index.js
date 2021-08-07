@@ -9,6 +9,8 @@ import PayementsSelect from '../PayementsSelect';
 import ValueInput from '../ValueInput';
 import DescriptionInput from '../DescriptionInput';
 
+import './styles.css';
+
 class EditModal extends React.Component {
   constructor(props) {
     super(props);
@@ -28,6 +30,7 @@ class EditModal extends React.Component {
 
     this.handleInputChange = this.handleInputChange.bind(this);
     this.submit = this.submit.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   handleInputChange(event) {
@@ -46,13 +49,18 @@ class EditModal extends React.Component {
     hideModal();
   }
 
+  closeModal() {
+    const { hideModal } = this.props;
+    hideModal();
+  }
+
   render() {
     const { currencies } = this.props;
     const { value, description, currency, method, tag } = this.state;
     return (
       <div className="modal">
         <div className="modalContent">
-          Editar Item
+          <h2>Editar Item</h2>
           <form>
             <ValueInput func={ this.handleInputChange } value={ value } />
             <DescriptionInput func={ this.handleInputChange } value={ description } />
@@ -72,7 +80,22 @@ class EditModal extends React.Component {
             </label>
             <PayementsSelect func={ this.handleInputChange } value={ method } />
             <CategoriesSelect func={ this.handleInputChange } value={ tag } />
-            <button onClick={ this.submit } type="button">Editar despesa</button>
+            <div className="actionButtons">
+              <button
+                className="editExpense"
+                onClick={ this.submit }
+                type="button"
+              >
+                Editar despesa
+              </button>
+              <button
+                className="cancelEdit"
+                onClick={ this.closeModal }
+                type="button"
+              >
+                Cancelar
+              </button>
+            </div>
           </form>
         </div>
       </div>

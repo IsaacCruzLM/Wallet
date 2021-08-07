@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
 import ExpenseItem from '../ExpenseItem';
+
+import './styles.css';
 
 class ExpenseTable extends React.Component {
   render() {
     const { expenses } = this.props;
     return (
-      <main>
+      <main className="expenseTable">
         <table>
           <thead>
             <tr>

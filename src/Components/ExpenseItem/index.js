@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashAlt, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { removeExpenses, showEditModal, editItem } from '../../Redux/actions/index';
+
+import './styles.css';
 
 class ExpenseItem extends React.Component {
   constructor(props) {
@@ -79,17 +83,19 @@ class ExpenseItem extends React.Component {
               editItemDispatch(id);
               showModal();
             } }
+            className="edit-btn"
             data-testid="edit-btn"
             type="button"
           >
-            Editar
+            <FontAwesomeIcon icon={ faPencilAlt } color="rgb(222, 221, 228)" />
           </button>
           <button
             data-testid="delete-btn"
+            className="delete-btn"
             onClick={ () => removeExpense(id) }
             type="button"
           >
-            Excluir
+            <FontAwesomeIcon icon={ faTrashAlt } color="rgb(222, 221, 228)" />
           </button>
         </td>
       </tr>

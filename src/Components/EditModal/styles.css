@@ -1,0 +1,59 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modalContent {
+  background-color: var(--lgbg-color);
+  border: 1px solid #888;
+  color: var(--ligth-color);
+  margin: 12% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.modalContent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContent form input {
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+}
+
+.modalContent form select {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--background-color);
+  color: var(--background-color);
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.actionButtons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.modalContent form .editExpense {
+  background-color: yellow;
+  font-weight: 700;
+}
+
+.modalContent form .cancelEdit {
+  background-color: red;
+  font-weight: 700;
+}

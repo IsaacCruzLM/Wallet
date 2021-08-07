@@ -1,0 +1,20 @@
+tr td {
+  color: var(--ligth-color);
+  padding: 5px 10px;
+}
+
+tr td button {
+  font-size: 15px;
+  margin: auto 0;
+  padding: 10px 0;
+  width: 30px;
+}
+
+tr td .delete-btn {
+  background-color: red;
+}
+
+tr td .edit-btn {
+  background-color: yellow;
+  margin-right: 10px;
+}

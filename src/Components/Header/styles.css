@@ -1,8 +1,9 @@
 .header {
   align-items: center;
-  background-color: var(--lgbg-color);
+  background-color: var(--background-color);
   color: var(--ligth-color);
   display: flex;
+  filter: brightness(1.2);
   height: 60px;
   justify-content: space-between;
   padding: 10px 40px;

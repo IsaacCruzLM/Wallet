@@ -15,7 +15,8 @@ code {
 :root {
   --background-color: rgb(20, 12, 14);
   --lgbg-color: rgb(66, 54, 56);
-  --primary-color: rgb(42, 141, 208);
+  --primary-color: rgb(69, 143, 42);
+  --primary-color-black: rgba(69, 143, 42, 0.8);
   --ligth-color: rgb(222, 221, 228);
 }
 

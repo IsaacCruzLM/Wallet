@@ -1,10 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { fetchCurrencies, addExpenses } from '../../Redux/actions/index';
 
 import CategoriesSelect from '../CategoriesSelect';
 import PayementsSelect from '../PayementsSelect';
+
+import './styles.css';
 
 class ExpenseForm extends React.Component {
   constructor() {
@@ -67,7 +71,7 @@ class ExpenseForm extends React.Component {
     const { Valor, Description, Moeda, method, tag } = this.state;
     return (
       <form className="expenseForm">
-        <label htmlFor="Valor">
+        <label className="valueLabel" htmlFor="Valor">
           Valor:
           <input
             onChange={ this.handleInputChange }
@@ -104,7 +108,7 @@ class ExpenseForm extends React.Component {
         <PayementsSelect func={ this.handleInputChange } value={ method } />
         <CategoriesSelect func={ this.handleInputChange } value={ tag } />
         <button onClick={ this.addExpense } type="button">
-          adicionar despesa
+          <FontAwesomeIcon icon={ faPlus } color="rgb(222, 221, 228)" />
         </button>
       </form>
     );

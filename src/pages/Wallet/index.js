@@ -7,11 +7,13 @@ import ExpenseForm from '../../Components/ExpenseForm';
 import ExpenseTable from '../../Components/ExpenseTable';
 import EditModal from '../../Components/EditModal';
 
+import './styles.css';
+
 class Wallet extends React.Component {
   render() {
     const { showEditModal } = this.props;
     return (
-      <div>
+      <div className="wallet">
         <Header />
         { !showEditModal && <ExpenseForm /> }
         <ExpenseTable />

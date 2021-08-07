@@ -1,0 +1,32 @@
+.header {
+  align-items: center;
+  background-color: var(--lgbg-color);
+  color: var(--ligth-color);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.userInfoContainer {
+  display: flex;
+}
+
+.userEmail , .userExpenses , .userExchange {
+  align-items: center;
+  display: flex;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+
+.userEmail h3 , .userExpenses h3 , .userExchange h3 {
+  padding: 0 5px;
+}
+
+.header button {
+  font-size: 22px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+}

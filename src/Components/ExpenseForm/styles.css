@@ -1,0 +1,41 @@
+.expenseForm {
+  background-color: var(--primary-color-black);
+  display: flex;
+}
+
+.expenseForm label {
+  color: var(--ligth-color);
+  display: flex;
+  filter: brightness(1.3);
+  flex-direction: column;
+  padding: 10px;
+}
+
+.expenseForm .valueLabel {
+  width: 500px;
+}
+
+.expenseForm input {
+  font-size: 16px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.expenseForm select {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--background-color);
+  color: var(--background-color);
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+}
+
+.expenseForm button {
+  background-color: var(--lgbg-color);
+  margin: 10px 35px 10px 10px;
+  padding: 0;
+  font-size: 25px;
+}

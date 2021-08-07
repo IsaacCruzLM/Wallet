@@ -1,6 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+
+import './styles.css';
 
 class Header extends React.Component {
   totalExpenses() {
@@ -20,9 +24,6 @@ class Header extends React.Component {
         <div className="Logo">
           Logo
         </div>
-        <div className="Title">
-          <h1>TrybeWallet</h1>
-        </div>
         <div className="userInfoContainer">
           <div className="userEmail">
             <h3>Email:</h3>
@@ -31,6 +32,7 @@ class Header extends React.Component {
           <div className="userExpenses">
             <h3>Despesas Totais:</h3>
             <p data-testid="total-field">
+              {'R$: '}
               { expenses.length > 0 ? this.totalExpenses() : 0 }
             </p>
           </div>
@@ -38,6 +40,11 @@ class Header extends React.Component {
             <h3>Câmbio Utilizado:</h3>
             <p data-testid="header-currency-field">BRL</p>
           </div>
+        </div>
+        <div>
+          <button type="button">
+            <FontAwesomeIcon icon={ faChartPie } color="rgb(222, 221, 228)" />
+          </button>
         </div>
       </header>
     );

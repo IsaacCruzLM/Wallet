@@ -29,57 +29,6 @@
   color: #61dafb;
 }
 
-.header {
-  align-items: center;
-  background-color: #282c34;
-  color: wheat;
-  display: flex;
-  height: 60px;
-  justify-content: space-between;
-  padding: 10px 40px;
-}
-
-.userInfoContainer {
-  display: flex;
-}
-
-.userEmail , .userExpenses , .userExchange {
-  align-items: center;
-  display: flex;
-  font-size: 12px;
-  padding: 10px 5px;
-}
-
-.userEmail h3 , .userExpenses h3 , .userExchange h3 {
-  padding: 0 5px;
-}
-
-.expenseForm {
-  background-color: #61dafb;
-  display: flex;
-}
-
-.expenseForm label {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-
-.expenseForm .small , .expenseForm select {
-  height: 100%;
-  width: 100px;
-}
-
-.descripInput {
-  height: 30px;
-  width: 250px;
-}
-
-.expenseForm button {
-  margin: 10px;
-  width: 70px;
-}
-
 .modal {
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;

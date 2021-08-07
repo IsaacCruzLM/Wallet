@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 import './styles.css';
+import wallet from '../../Assets/wallet-attention.gif';
 
 class Header extends React.Component {
   totalExpenses() {
@@ -21,8 +22,8 @@ class Header extends React.Component {
     const { email } = userState;
     return (
       <header className="header">
-        <div className="Logo">
-          Logo
+        <div className="gifHeader">
+          <img src={ wallet } alt="wallet" />
         </div>
         <div className="userInfoContainer">
           <div className="userEmail">

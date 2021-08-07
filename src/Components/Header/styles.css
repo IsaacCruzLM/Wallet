@@ -9,6 +9,14 @@
   padding: 10px 40px;
 }
 
+.gifHeader {
+  padding: 0 0 10px;
+}
+
+.gifHeader img {
+  width: 60px;
+}
+
 .userInfoContainer {
   display: flex;
 }

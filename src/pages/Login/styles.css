@@ -15,8 +15,13 @@
 }
 
 .gif {
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 50px;
+}
+
+.gif img {
+  width: 150px;
 }
 
 .input {

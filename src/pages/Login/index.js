@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { addUserToState } from '../../Redux/actions/index';
 
 import './styles.css';
-import wallet from '../../assets/wallet-attention.gif';
+import wallet from '../../Assets/wallet-attention.gif';
 
 class Login extends React.Component {
   constructor() {
@@ -49,10 +49,9 @@ class Login extends React.Component {
     return (
       <main className="loginPage">
         <section className="container">
-          <img src={ wallet } alt="wallet" />
-          <h2 className="gif">
-            Login
-          </h2>
+          <div className="gif">
+            <img src={ wallet } alt="wallet" />
+          </div>
           <div className="input">
             <label htmlFor="userEmail">
               Email:

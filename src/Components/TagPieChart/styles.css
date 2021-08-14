@@ -1,0 +1,45 @@
+.tagChart {
+  margin-top: 20px;
+}
+
+.highcharts-background , .highcharts-plot-background , .highcharts-plot-border {
+  fill: transparent;
+}
+
+.highcharts-label-box , .highcharts-point {
+  fill: whitesmoke;
+}
+
+.highcharts-data-label {
+  fill: black;
+}
+
+.highcharts-title {
+  fill: whitesmoke;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.highcharts-color-0 {
+  fill: navy;
+}
+
+.highcharts-color-1 {
+  fill: red;
+}
+
+.highcharts-color-2 {
+  fill: blueviolet;
+}
+
+.highcharts-color-3 {
+  fill: aqua;
+}
+
+.highcharts-color-4 {
+  fill: green;
+}
+
+.highcharts-data-label-connector {
+  fill: white;
+}

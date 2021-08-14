@@ -4,6 +4,7 @@ import './App.css';
 
 import Login from './pages/Login';
 import Wallet from './pages/Wallet';
+import Charts from './pages/Charts';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ Login } />
         <Route exact path="/carteira" component={ Wallet } />
+        <Route exact path="/charts" component={ Charts } />
       </Switch>
     </div>
   );

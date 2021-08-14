@@ -118,7 +118,7 @@ class ExpenseForm extends React.Component {
 ExpenseForm.propTypes = {
   addCurrencies: PropTypes.func.isRequired,
   currencies: PropTypes.arrayOf(Object).isRequired,
-  nextId: PropTypes.string.isRequired,
+  nextId: PropTypes.number.isRequired,
   addExpense: PropTypes.func.isRequired,
 };
 

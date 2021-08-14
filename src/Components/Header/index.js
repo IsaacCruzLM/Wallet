@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+import { faChartPie, faWallet } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 import wallet from '../../Assets/wallet-attention.gif';
@@ -43,9 +44,16 @@ class Header extends React.Component {
           </div>
         </div>
         <div>
-          <button type="button">
-            <FontAwesomeIcon icon={ faChartPie } color="rgb(222, 221, 228)" />
-          </button>
+          <Link to="/carteira">
+            <button type="button">
+              <FontAwesomeIcon icon={ faWallet } color="rgb(222, 221, 228)" />
+            </button>
+          </Link>
+          <Link to="/charts">
+            <button type="button">
+              <FontAwesomeIcon icon={ faChartPie } color="rgb(222, 221, 228)" />
+            </button>
+          </Link>
         </div>
       </header>
     );

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/wallet/static/css/main.bf3854cd.chunk.css",
-    "main.js": "/wallet/static/js/main.2eae9904.chunk.js",
-    "main.js.map": "/wallet/static/js/main.2eae9904.chunk.js.map",
-    "runtime-main.js": "/wallet/static/js/runtime-main.86db26d2.js",
-    "runtime-main.js.map": "/wallet/static/js/runtime-main.86db26d2.js.map",
-    "static/js/2.85e25898.chunk.js": "/wallet/static/js/2.85e25898.chunk.js",
-    "static/js/2.85e25898.chunk.js.map": "/wallet/static/js/2.85e25898.chunk.js.map",
-    "index.html": "/wallet/index.html",
-    "precache-manifest.dcc335dc195caf97865bc295302d2e1b.js": "/wallet/precache-manifest.dcc335dc195caf97865bc295302d2e1b.js",
-    "service-worker.js": "/wallet/service-worker.js",
-    "static/css/main.bf3854cd.chunk.css.map": "/wallet/static/css/main.bf3854cd.chunk.css.map",
-    "static/js/2.85e25898.chunk.js.LICENSE.txt": "/wallet/static/js/2.85e25898.chunk.js.LICENSE.txt",
-    "static/media/wallet-attention.gif": "/wallet/static/media/wallet-attention.395f42dc.gif"
+    "main.css": "/Wallet/static/css/main.bf3854cd.chunk.css",
+    "main.js": "/Wallet/static/js/main.dafb4a08.chunk.js",
+    "main.js.map": "/Wallet/static/js/main.dafb4a08.chunk.js.map",
+    "runtime-main.js": "/Wallet/static/js/runtime-main.25cc14cf.js",
+    "runtime-main.js.map": "/Wallet/static/js/runtime-main.25cc14cf.js.map",
+    "static/js/2.85e25898.chunk.js": "/Wallet/static/js/2.85e25898.chunk.js",
+    "static/js/2.85e25898.chunk.js.map": "/Wallet/static/js/2.85e25898.chunk.js.map",
+    "index.html": "/Wallet/index.html",
+    "precache-manifest.55dce81367980e8b0ba943e505d9c1c7.js": "/Wallet/precache-manifest.55dce81367980e8b0ba943e505d9c1c7.js",
+    "service-worker.js": "/Wallet/service-worker.js",
+    "static/css/main.bf3854cd.chunk.css.map": "/Wallet/static/css/main.bf3854cd.chunk.css.map",
+    "static/js/2.85e25898.chunk.js.LICENSE.txt": "/Wallet/static/js/2.85e25898.chunk.js.LICENSE.txt",
+    "static/media/wallet-attention.gif": "/Wallet/static/media/wallet-attention.395f42dc.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.86db26d2.js",
+    "static/js/runtime-main.25cc14cf.js",
     "static/js/2.85e25898.chunk.js",
     "static/css/main.bf3854cd.chunk.css",
-    "static/js/main.2eae9904.chunk.js"
+    "static/js/main.dafb4a08.chunk.js"
   ]
 }

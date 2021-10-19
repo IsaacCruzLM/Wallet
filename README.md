@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto Trybe Wallet, tem com objetivo a criação de um carteira de gastos virtuais, para moedas estrangeiras com conversões das moedas para BRL (R$), através de requisições a API de Conversões, awesomeapi e gerenciamente do estado global do estado da aplicação. Além de utilizar Highcharts para a apresentação dos gráficos.
+O projeto Trybe Wallet, tem com objetivo a criação de um carteira de gastos virtuais, para moedas estrangeiras com conversões das moedas para BRL (R$), através de requisições a API de Conversões, awesomeapi e gerenciamento do estado global  da aplicação utilizando-se Redux. Além de utilizar Highcharts para a apresentação dos gráficos.
 
 ## 🔖 Deploy
 

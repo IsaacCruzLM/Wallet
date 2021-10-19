@@ -16,7 +16,7 @@
 
 <p align="center">
   <img alt="Projeto_1" src="./public/ProjetoWallet_1.jpeg" width="48%">
-  <img alt="Projeto_2" src="./public/ProjetoWallet_2.jpeg" width="48%">
+  <img alt="Projeto_2" src="./public/ProjetoWallet_2.jpeg" width="48%" height="100%">
   <img alt="Projeto_3" src="./public/ProjetoWallet_3.jpeg" width="48%">
 </p>
 

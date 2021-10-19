@@ -15,9 +15,9 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto_1" src="./public/ProjetoWallet_1.jpeg" width="40%">
-  <img alt="Projeto_2" src="./public/ProjetoWallet_2.jpeg" width="40%">
-  <img alt="Projeto_3" src="./public/ProjetoWallet_3.jpeg" width="40%">
+  <img alt="Projeto_1" src="./public/ProjetoWallet_1.jpeg" width="50%">
+  <img alt="Projeto_2" src="./public/ProjetoWallet_2.jpeg" width="50%">
+  <img alt="Projeto_3" src="./public/ProjetoWallet_3.jpeg" width="50%">
 </p>
 
 ## 🚀 Tecnologias
